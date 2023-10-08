@@ -1,12 +1,12 @@
 import { useState } from "react";
-
+import "./Filters.css";
 
 
 function Filters() {
 	const [isOpen, setOpen] = useState(false);
 	const [isOpenTag, setOpenTag] = useState(false);
 	return (
-		<div className="search">
+		// <div className="search">
 			<div className="search-iner">
 				<div className="search-iner__link">
 					<div className="search-iner__link_name">
@@ -38,7 +38,7 @@ function Filters() {
 						<button className="search-tag__list_item">
 							<input id="dub.sh" name="dub.sh" type="radio" className="search-tag__list_item_inp-tag" checked="" />
 							<label for="dub.sh" className="search-tag__list_item_name">
-								<p>dub.sh</p>
+								<p>Показать все</p>
 							</label>
 						</button>
 						<button className="search-tag__list_item">
@@ -68,7 +68,7 @@ function Filters() {
 					</div>
 				</fieldset>
 			</div>
-		</div>
+		// </div>
 	);
 }
 
