@@ -1,3 +1,4 @@
+import "./Links.css";
 
 function Link() {
   return (
@@ -30,8 +31,8 @@ function Link() {
 			</div>
 		</div>
 			
-
-			<div className="close" id="edit" data-radix-popper-content-wrapper="" >
+			{/* опции ссылки */}
+			<div className="close" id="edit" data-radix-popper-content-wrapper="" style={{display:"none"}}>
 				<div data-side="bottom" data-align="end" data-state="open" role="dialog" id="radix-:ri:" class="edit-cont" tabindex="-1" >
 					<div className="edit-item">
 						<button className="edit-btn">
